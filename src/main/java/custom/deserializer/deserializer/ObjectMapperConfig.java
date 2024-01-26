@@ -1,10 +1,9 @@
-package org.example.deserializer;
+package custom.deserializer.deserializer;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import org.example.deserializer.FilterDeserializer;
-import org.example.dto.BaseClass;
+import custom.deserializer.dto.BaseClass;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

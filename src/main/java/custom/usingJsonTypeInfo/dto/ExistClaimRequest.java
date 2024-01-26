@@ -1,4 +1,4 @@
-package org.example.dto;
+package custom.usingJsonTypeInfo.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

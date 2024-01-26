@@ -1,4 +1,4 @@
-package org.example.dto;
+package custom.deserializer.dto;;
 
 import lombok.NoArgsConstructor;
 

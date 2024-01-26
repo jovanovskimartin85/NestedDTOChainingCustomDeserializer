@@ -5,28 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95bb04d1-9053-4d4d-a79a-2ac37b73b0ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/deserializer/FilterDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/deserializer/ObjectMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/AssociateQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateClaimRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateForm7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateForm7A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateForm8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/ExistClaimRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/FinalizedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/TranscribeQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/api/TryingDTOChaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/api/UsingJsonTypeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/AssociateQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/CreateClaimRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/CreateForm7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/CreateForm7A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/CreateForm8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/ExistClaimRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/FinalizedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/custom/usingJsonTypeInfo/dto/TranscribeQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/deserializer/FilterDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/deserializer/FilterDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/deserializer/ObjectMapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/deserializer/ObjectMapperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/AssociateQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/AssociateQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateClaimRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/CreateClaimRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateForm7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/CreateForm7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateForm7A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/CreateForm7A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/CreateForm8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/CreateForm8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/ExistClaimRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/ExistClaimRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/FinalizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/FinalizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/TranscribeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/dto/TranscribeQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/api/TryingDTOChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/custom/deserializer/web/api/DTOChainingCustomDeserializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +51,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -59,26 +68,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Martin/Downloads/untitled/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Martin/Downloads/NestedDTOChainingCustomDeserializer/src/main/java/usingJsonTypeInfo",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\Downloads\NestedDTOChainingCustomDeserializer\src\main\java\usingJsonTypeInfo\" />
+      <recent name="C:\Users\Martin\Downloads\NestedDTOChainingCustomDeserializer\src\main\java\usingJsonTypeInfo" />
       <recent name="C:\Users\Martin\Downloads\untitled\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Martin\Downloads\untitled\src\main\java\org\example\web" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="custom" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,12 +126,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/web/api/TryingDTOChaining.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/custom/deserializer/web/api/DTOChainingCustomDeserializer.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/deserializer/FilterDeserializer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/custom/deserializer/deserializer/FilterDeserializer.java</url>
           <line>29</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
